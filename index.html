@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grocery List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GROCERY LIST</h1>
+    <div class="js-input-section input-section">
+      <input class="js-item-input item-input" placeholder="Add Item">
+      <div class="buttons">
+        <button class="js-add-btn add-btn">ADD</button>
+        <button class="js-edit-btn edit-btn">EDIT</button>
+      </div>
+    </div>
+    <ul class="js-grocery-list grocery-list">
+    </ul>
+    <button class="finished-item-btn">SHOW FINISHED ITEM</button>
+    <ul class="js-finished-grocery-list finished-grocery-list">
+    </ul>
+    <button class="js-clear-item-btn clear-item-btn">CLEAR ITEM</button><!-- it will exist if there is already a finished item-->
+  </div>
+  <script src=main.js></script>
+</body>
+</html>
